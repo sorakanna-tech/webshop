@@ -1,0 +1,57 @@
+body {
+            font-family: Arial, sans-serif;/* フォントを指定 */
+            margin: 20px;   /* ページ全体の余白を追加 */
+        }
+.product {/* 商品のスタイルを定義 */
+            border: 1px solid #ccc; /* 枠線を追加 */  
+            padding: 10px;    /*  余白を追加 */  
+            border-radius: 8px; /*  角丸にする*/  
+            display: inline-block; /* 横に並ぶ */   
+            width: calc(33% - 64px); /* 幅を指定 */ 
+            padding: 16px; /* 内側の余白を追加 */
+            margin: 16px; /* 外側の余白を追加 */
+            box-sizing: border-box; /* 幅にパディングとボーダーを含める */
+            height: 300px; /* 高さを指定 */
+        }
+        .product-content { /* 商品画像のスタイルを定義 */
+            display: flex; /* ブロック要素として表示 */  
+          flex-direction: column; /* 縦方向に並べる */  
+            align-items: center; /* 中央揃え */
+            text-align: center; /* テキストを中央揃え */
+            height: 100%; /* 高さを100%に設定 */
+        }
+        .productimage { /* 商品画像のスタイルを定義 */
+            max-width: 100%; /* 最大幅を100%に設定 */
+            height: auto; /* 高さを自動調整 */
+           object-fit: contain; /* 画像のアスペクト比を維持して表示 */
+       
+        }
+        .product-detail {
+            border: 1px solid #ccc; /* 枠線を追加 */  
+            border-radius: 8px; /*  角丸にする*/  
+            text-align: center; /* テキストを中央揃え */
+            padding: 18px; /* 内側の余白を追加 */
+        }
+         .cat-item {
+            border: 1px solid #ccc; /* 枠線を追加 */  
+            border-radius: 8px; /*  角丸にする*/  
+        
+            padding: 16px; /* 内側の余白を追加 */
+            margin: 16px 0; /* 上下の余白を追加 */
+         }
+ .button { /* ボタンのスタイルを定義 */
+           display: inline-block; /* インラインブロック要素として表示 */
+            background-color: blue; /* 背景色を指定 */  
+            color: white; /* 文字色を指定 */  
+            text-decoration: none; /* 下線を削除 */
+            border-radius: 4px; /* 角丸にする */
+            padding: 10px 20px; /* 内側の余白を追加 */
+      
+        }
+        .button a { /* ボタン内のリンクのスタイルを定義 */
+            color: white; /* 文字色を指定 */  
+            text-decoration: none; /* 下線を削除 */
+        }
+        .button:hover { /* ボタンにマウスオーバーしたときのスタイルを定義 */
+            background-color: aqua; /* 背景色を変更 */
+             }
